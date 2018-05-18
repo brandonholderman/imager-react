@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default class Navbar extends React.Component {
-
   render() {
     return (
       <header className="main-header">
-        <h1>Welcome to Shopper</h1>
+        <h1>Welcome to Imager</h1>
         <p>Your token is {this.props.token}</p>
         <nav>
           <ul>
